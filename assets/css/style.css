@@ -66,7 +66,7 @@ p {
 }
 
 .btn {
-  background: #333;
+  background: #d65555;
   border: medium none;
   border-radius: 0;
   color: #fff;
@@ -97,9 +97,9 @@ p {
 
 .form-control {
   background-color: transparent;
-  border: 1px solid #999;
+  border: 1px solid #3794d1;
   border-radius: 0;
-  color: #999999;
+  color: #3794d1;
   font-size: 12px;
   font-weight: 500;
   height: 50px;
@@ -1012,14 +1012,14 @@ p {
 .entry-comments-author {
   margin-right: 10px;
   font-size: 13px;
-  color: #292929;
+  color: #d65555;
   letter-spacing: 0.1em;
   font-weight: 500;
 }
 
 .rep {
   font-size: 13px;
-  color: #292929;
+  color: #d65555;
   letter-spacing: 0.1em;
   font-weight: 500;
   text-transform: capitalize;
@@ -1074,7 +1074,7 @@ blockquote {
 
 #footer .socials-media ul li a {
   font-size: 24px;
-  color: #999;
+  color: #d65555;
   letter-spacing: 0.1em;
   font-weight: 500;
   background: transparent;
