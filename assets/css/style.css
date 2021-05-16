@@ -428,20 +428,21 @@ p {
 #hero {
   background: url("../img/home.png");
   background-repeat: no-repeat;
-  background-position: left;
-  height: 100%;
-  width: 100%;
+  background-size: 1000px 1000px;
+  background-color: #f0efef;
 }
 
 #hero .hero-content {
-  height: 100vh;
-  text-align: left;
-  width: 100%;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  position: right;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  text-align: left;
+  
 }
+
 
 .hero-content h1 {
   font-size: 40px;
