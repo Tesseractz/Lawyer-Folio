@@ -428,9 +428,12 @@ p {
 #hero {
   background: url("../img/home.png");
   background-repeat: no-repeat;
-  background-size: 1000px 1000px;
+  background-position: center;
+  background-size: clamp(100px, 800px, 1000px) clamp(100px, 800px, 1000px);
   background-color: #f0efef;
 }
+
+
 
 #hero .hero-content {
   display: flex;
@@ -547,7 +550,7 @@ p {
 }
 
 #about .div-img-bg .about-img img {
-  width: 450px;
+  width: clamp(100%, 100% 450px);
   box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
   margin-top: -60px;
   margin-left: 40px;
