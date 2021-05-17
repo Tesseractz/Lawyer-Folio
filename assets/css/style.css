@@ -191,7 +191,7 @@ p {
 }
 
 #header .logo {
-  font-size: 30px;
+  font-size: 40px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -206,7 +206,7 @@ p {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 75px;
 }
 
 @media (max-width: 992px) {
@@ -573,6 +573,7 @@ p {
 --------------------------------------------------------------*/
 #services {
   background: #f7f7f7;
+  background-image: url("assets/img/logo.png");
   position: relative;
   padding-bottom: 80px;
 }
@@ -1227,7 +1228,7 @@ blockquote {
     font-size: 20px;
   }
   #about .about-descr .separator {
-    max-width: 100%;
+    max-width: 10%;
     margin-bottom: 0;
   }
   /* portfolio */
