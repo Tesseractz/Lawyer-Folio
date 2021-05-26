@@ -429,21 +429,22 @@ p {
   background: url("../img/home.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: clamp(100px, 800px, 1000px) clamp(100px, 800px, 1000px);
+  background-size: contain;
   background-color: #f0efef;
+  
 }
 
 
 
 #hero .hero-content {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   flex-direction: row;
   align-items: center;
   height: 100vh;
   width: 100%;
-  text-align: left;
-  
+  /* text-align: left; */
+  margin-left: -40px;
 }
 
 
