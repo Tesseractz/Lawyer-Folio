@@ -431,6 +431,7 @@ p {
   background-position: center;
   background-size: contain;
   background-color: #f0efef;
+  margin-top: 3rem;
   
 }
 
@@ -443,13 +444,12 @@ p {
   align-items: center;
   height: 100vh;
   width: 100%;
-  /* text-align: left; */
   margin-left: -40px;
 }
 
 
 .hero-content h1 {
-  font-size: 40px;
+  font-size: 2rem;
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -457,7 +457,7 @@ p {
 }
 
 .hero-content p {
-  font-size: 13px;
+  font-size: 2rem;
   letter-spacing: 3px;
   margin-top: 0;
   margin-bottom: 30px;
@@ -1358,6 +1358,14 @@ blockquote {
     padding-top: 15px;
     display: block;
   }
+  .hero-content h1 {
+    font-size: 0.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #3794d1;
+    margin-left: 2rem;
+  }
   /* About */
   .head-info .header-content h1 {
     font-size: 32px;
@@ -1426,6 +1434,14 @@ blockquote {
     float: right;
     padding-top: 15px;
     display: block;
+  }
+  .hero-content h1 {
+    font-size: 0.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #3794d1;
+    margin-left: 2rem;
   }
   /* About */
   .head-info .header-content h1 {
